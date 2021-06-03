@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /* more on this crazy alphanumerical value in a minute! */
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+/*apply stylesto the <header>*/
+header{
+    padding: 25px 35px;
+    background-color: #353636;
+    
+}
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
+header a {
+    color: #fce138;
+}
+header a{
+    text-decoration: none;
+    color: #fce138;
+}
+header nav{
+    float: right;
+    margin: 7px 0;
+}
+header nav ul li {
+    display:inline;
+}
+header nav ul li a{
+    margin: 0 22px;
+    font-weight: lighter;
+    font-size: 22px;
+    display: inline;
+}
+/*hero style start*/
+.hero{
+    background-image: url(../assets/jr-korpa-9XngoIpxcEo-unsplash.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+
+}
+section div h2{
+    margin: 10px;
+    padding: 10px;
+}
+section div h3{
+    margin-left: 20px;
+    padding: 15px;
+}
+
+
+
+.steps{
+    text-align: center;
+    background: #353636;
+}
+.section-title {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  display: inline-block;
+  border-bottom: 3px solid;
+}
+
+
+.primary.border {
+  border-color: #fce138;
+}
+
+.secondary.border {
+  border-color: #39a6b2;
+}
+.steps{
+    margin-bottom: 80px;
+
+}
+.steps img{
+    width: 15%;
+    margin: 10px 0;
+}
+.steps h3{
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10 px;
+}
+.steps p{
+    color: #39a6b2;
+    font-size: 23px;
+}
+.steps span{
+    font-size: 38px;
+}
+
+footer{
+    background-color: #353636;
+    width: 100%;
+    padding: 40px 35px;
+    margin: 0 auto;
+}
+footer h2{
+    display: inline;
+    color: #bebb0b;
+    font-size: 30px;
+    margin: 0;
+}
+footer div{
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
