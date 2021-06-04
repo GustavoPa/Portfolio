@@ -9,7 +9,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
   }
 
-/*apply stylesto the <header>*/
+/*apply styles to the <header> Flexbox*/
 header{
     padding: 25px 35px;
     background-color: #353636;
@@ -36,24 +36,25 @@ header a{
 header nav{
     margin: 7px 0;
 }
-header nav ul li {
-    display:inline;
-}
-header nav ul li a{
-    margin: 0 22px;
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  header nav ul li a {
+    margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
-    display: inline;
-    
-}
+    font-size: 1.55vw;
+  }
 /*hero style start*/
 .hero{
     background-image: url(../assets/jr-korpa-9XngoIpxcEo-unsplash.jpg);
-    height: 500px;
     background-size: cover;
-    background-position:center;
-    position: relative;
-
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
 }
 section div h2{
     margin: 10px;
@@ -107,21 +108,23 @@ section div h3{
 .steps span{
     font-size: 38px;
 }
-
+/*Wrapping the footer and adding FLexbox*/
 footer{
     background-color: #353636;
     width: 100%;
     padding: 40px 35px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 footer h2{
-    display: inline;
     color: #bebb0b;
     font-size: 30px;
     margin: 0;
 }
 footer div{
-    float: right;
     line-height: 1.5;
     text-align: right;
 }
+/*footer ends here*/
