@@ -65,49 +65,74 @@ section div h3{
     padding: 15px;
 }
 
+/*about me */
 
 
-.steps{
-    text-align: center;
+.step{
     background: #353636;
 }
 .section-title {
   font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
+  color: #0b0c0e;
   border-bottom: 3px solid;
+padding-bottom: 20px;
+text-align: center;
+margin: 0 auto 35px auto;
+width: 50%;
 }
-
+.step p{
+    justify-content: center;
+}
 
 .primary.border {
   border-color: #fce138;
 }
 
 .secondary.border {
-  border-color: #39a6b2;
+  border-color: #1a1d1d;
 }
 .steps{
     margin-bottom: 80px;
 
 }
-.steps img{
-    width: 15%;
-    margin: 10px 0;
-}
-.steps h3{
-    color: #024e76;
+
+.step h3{
+    color: #fce138;
     font-size: 46px;
-    margin-top: 10 px;
 }
-.steps p{
-    color: #39a6b2;
-    font-size: 23px;
+.step-text p{
+    color: #050707;
+    font-size: 18px;
 }
-.steps span{
-    font-size: 38px;
+/*contact me*/
+.contact{
+    display: flex;
+    justify-content: center;
 }
+.hero-form p{
+    margin: 5px 0 15px 0;
+}
+.form-input{
+    display: flex;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: black;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+.form label{
+    margin: 0 5px;
+}
+.butn{
+    color: black;
+    background-color:#fce138;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+
 /*Wrapping the footer and adding FLexbox*/
 footer{
     background-color: #353636;
@@ -128,3 +153,7 @@ footer div{
     text-align: right;
 }
 /*footer ends here*/
+.flex-row {
+    display: flex;
+  }
+  
