@@ -2,96 +2,143 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WaleedTouqan's Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/style.css">
+    <title>Run Buddy</title>
 </head>
 
 <body>
-    <!--Navbar-->
+    <!-- navigation tags - block level element -->
     <header>
-        <h1 style="color: black;"><a href="index.html">Waleed Touqan</a></h1>
+        <h1>
+            <a href="./index.html">Waleed Touqan</a>
+        </h1>
         <nav>
             <ul>
-                <li><a href="#about-me"> About Me</a></li>
-
-
-                <li><a href="#my-work">My Work</a></li>
-
-
-                <li><a href="#contact-me"> Contact me</a></li>
-
-
-                <li><a href="#resume"> Resume</a></li>
+                <li>
+                    <a href="#what-we-do">What I Do</a>
+                </li>
+                <li>
+                    <a href="#what-you-do">My work</a>
+                </li>
+                <li>
+                    <a href="#resume">Resume</a>
+                </li>
+                <li>
+                    <a href="#reach-out">Reach Out</a>
+                </li>
             </ul>
         </nav>
-
     </header>
-    <!--Hero section-->
+    <!-- end navigation -->
+
+    <!-- hero/jumbotron -->
     <section class="hero">
-        <div class="hero-form">
-            <h2 style="color: #e6e6e9; font-size: 50px;"> Web Developer</h2>
-            <h3 style="color: #fca311; font-size: 45px;">UI/UX Designer</h3>
+
+        <div class="hero-cta">
+            <h2>Full-Stack Web Developer</h2>
+            <h3>UI/UX Designer</h3>
         </div>
+
+
+
     </section>
-    <!--About me section-->
-    <section class="step">
+    <!-- end header -->
+
+    <!-- "what we do" start - <section> -->
+    <section id="what-we-do" class="intro">
         <div class="flex-row">
-            <h2 class="section-title secondary border" id="about-me"> About me</h2>
+            <h2 class="section-title primary-border">
+                What I Do
+            </h2>
         </div>
-        <div class="step-text">
+        <div class="flex-row">
             <p>
-                Full-Stack Web Developer and UI/UX Designer. I just love to build cool stuff on the internet.
-                Experienced with HTML5,CSS and Javascript!
+                Full-Stack Web Developer and UI/UX Designer who loves to build cool stuff on the internet.
+                experienced with HTML , CSS and Javascript!
             </p>
         </div>
-
-        <div class="step">
-            <section class="work">
-                <h3 id="my-work"><span> My Work</span></h3>
-
-            </section>
-        </div>
-
-        <div class="step">
-            <h3 id="contact-me" class="contact"> <span> Contact me</span></h3>
-
-            <section class="form-input">
-
-                <form action="">
-                    <label for="name">Enter full name</label>
-                    <input type="text" placeholder="your name" name="name" id="name" class="form-input" />
-                    <label for="email">Email address</label>
-                    <input type="email" placeholder="your email" name="email" id="email" class="form-input" />
-                    <label for="phone">Phone number</label>
-                    <input type="tel" placeholder="your number" name="phone" id="phone" class="form-input" />
-                    <button type="submit" class="butn">Hire me</button>
-
-                </form>
-            </section>
-        </div>
-
-        <div class="step">
-            <h3 id="resume"><span> Resume</span></h3>
-        </div>
     </section>
-    <!--social media lknks-->
-    <section>
-        <article>
-            <div> <a href=""> github</a></div>
-        </article>
-    </section>
+    <!-- end "what we do" -->
 
-    <!--footer-->
-    <footer>
+    <!-- "what you do" start -->
+    <section id="what-you-do" class="steps">
         <div class="flex-row">
-            <h2>❤️ Made with love by Waleed Touqan.</h2>
-
-            &copy; 2021, WT.
+            <h2 class="section-title secondary-border">
+                My work
+            </h2>
         </div>
-    </footer>
+        <div class="step">
+            <h3>Run Buddy</h3>
+            <div class="step-info">
+                <div class="step-img">
+                    <a href="https://gustavopa.github.io/Run-buddy/"> <img src="./assets/hero-bg.jpg"
+                            alt="Run buddy application" /></a>
+                </div>
+                <div class="step-text">
+                    <h4>Fitness App</h4>
+                    <p>Help thousands of people reach their health goals</p>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <!-- "what you do" end -->
+    <div class="step section-title ">
+        <div id="resume" class="flex-row">
+            <h3><a href="https://www.linkedin.com/in/walid-toukan-59ba67167/">Resume</a></h3>
+            <p></p>
+        </div>
+    </div>
+
+    <!-- "reach out" start -->
+    <section id="reach-out" class="contact">
+        <div class="flex-row">
+            <h2 class="section-title secondary-border">
+                Reach Out
+            </h2>
+        </div>
+
+        <div class="contact-info">
+            <div>
+                <h3>Hire Me</h3>
+                <p>
+                    Any questions or concerns about desigining a web apps
+                    <br />
+                    Let me know and i'll be happy to talk to you!
+                </p>
+
+                <address>
+
+                    <a href="https://github.com/GustavoPa">Github </a> <br />
+                    <a href="https://www.facebook.com/waleed.touqan/">Facebook</a><br />
+                    P: (+1-343-549-713)<br />
+                    E: <a href="mailto:waleedtouqan@gmail.com">waleedtouqan@gmail.com</a>
+                </address>
+
+            </div>
+
+            <div class="contact-form">
+                <h3>Contact Me</h3>
+                <form>
+                    <label for="contact-name">Your Name</label>
+                    <input type="text" id="contact-name" placeholder="Your Name" />
+
+                    <label for="contact-message">Message</label>
+                    <textarea id="contact-message" placeholder="Message"></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- "reach out" end -->
+
+
 </body>
 
 </html>
