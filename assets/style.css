@@ -69,6 +69,7 @@
     text-shadow: none;
   }
   
+  
   /* HEADER / NAVBAR STYLES END */
   
   
@@ -79,7 +80,6 @@
   
   /* HERO STYLES START */
   .hero {
-  background-color: var(--secondary-color);    
   background-size: contain;
     display: flex;
     justify-content: right;
@@ -87,7 +87,7 @@
     align-items: center;
     background-attachment: fixed;
     background-position: 80%;
-    background-color: rgb(53, 50, 50);
+    background-color: rgb(156, 147, 147);
   }
   
   .hero-cta {
@@ -216,8 +216,9 @@
   /* My Work STYLES END */
   
   /*resume */
-  #resume div a{
+  div h2 a{
 text-decoration: none;
+color: var(--secondary-color);
   }
   
   /* REACH OUT STYLES START */
@@ -311,6 +312,11 @@ text-decoration: none;
   .flex-row {
     display: flex;
   }
+  /*footer*/
+footer p{
+color: var(--primary-color);
+text-align: center;
+}
   
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
   @media screen and (max-width: 980px) {
